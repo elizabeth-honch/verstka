@@ -1,0 +1,276 @@
+/*Rules*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*For all*/
+
+ul,li{
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+/*First block*/
+
+.header{
+	width: 1140px;
+	height: 27px;
+	background:#ffffff;
+}
+
+.logo{
+	width: 97px;
+	height: 27px;
+	display:block;
+background-repeat: no-repeat;
+padding-top: 24px;
+}
+
+.a{
+	color: #fc5f45;
+}
+
+nav{
+	padding-top: 30px;
+}
+
+.menu__item{
+	margin-right: 15px;
+	margin-left: 10px;
+}
+
+.menu__item a{
+width: 736px;
+height: 15px;
+color: #272727;
+font-family: 'Poppins';
+font-size: 14px;
+font-weight: 500;
+line-height: 27px;
+text-decoration: none;
+}
+
+.menu__item a:hover{
+	font-size: 15px;
+	border-bottom: 3px solid #3f4049;
+	padding-bottom: 10px;
+	opacity:0.3;
+	text-decoration: none;
+	color:#272727;
+}
+
+/*Second screen*/
+.second{
+	background: #3f4049;
+	height: 775px;
+	margin-top: 75px;
+}
+
+.work__title{
+width: 818px;
+color: #ffffff;
+font-family: "Libre Baskerville";
+font-size: 60px;
+font-weight: 400;
+text-align: center;
+padding-top: 175px;
+padding-right: 30px;
+margin:0 auto;
+}
+
+.work__btn{
+color: #ffffff;
+font-family: "Poppins - Semi Bold";
+font-size: 16px;
+font-weight: 400;
+text-transform: uppercase;
+margin: 0 auto;
+background: #fc5f45;
+ border-radius: 60px;
+ width:180px;
+ height: 50px;
+ padding:16px 41px;
+ margin-top: 49px;
+
+}
+
+.work__item img{
+	margin:0 auto;
+	padding-top: 83px;
+}
+
+.text__t{
+	margin:0 auto;
+	padding-top: 38px;
+	padding-left:30px;
+}
+
+
+/*Third screen*/
+.third{
+	background: #ffffff;
+}
+.img{
+	margin-top: 149px;
+}
+
+.decription{
+	background: #ffffff;
+	width: 652px;
+height: 550px;
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+margin-top:224px;
+}
+
+ .decription__title{
+color: #313131;
+font-family: "Libre Baskerville";
+font-size: 50px;
+font-weight: 700;
+padding-left:75px;
+ }
+
+ .decription__text{
+width: 486px;
+color: #616161;
+font-family: Poppins;
+font-size: 15px;
+font-weight: 400;
+padding-top: 48px;
+padding-left: 83px;
+ }
+
+
+/*Fourth screen*/
+
+.four{
+	background: #f7f7f7;
+	margin-top:81px;
+	padding-top: 148px;
+	padding-bottom: 148px;
+}
+
+.focus{
+	margin: 0 auto;
+}
+.focus__title{
+color: #313131;
+font-family: "Libre Baskerville";
+font-size: 50px;
+font-weight: 700;
+text-align: center;
+}
+
+.focus__text{
+color: #616161;
+font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+text-align: center;
+padding-top: 39px;
+}
+
+.select{
+margin-top:79px;
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+background-color: #ffffff;
+border-bottom:4px solid #fc725b;
+}
+ 
+.select__img{
+margin-top: 66px;
+margin-left: 104px;
+margin-right: 104px;
+
+}
+
+.select__title{
+width: 119px;
+color: #313131;
+font-family: Poppins;
+font-size: 20px;
+font-weight: 500;
+margin:32px auto 0;
+}
+
+.select__text{
+padding-top: 32px;
+width: 196px;
+color: #616161;
+font-family: Poppins;
+font-size: 15px;
+font-weight: 400;
+margin: 0 auto;
+}
+
+
+/*Five screen*/
+.five{
+	background:#3f4049;
+}
+
+.explore{
+	padding-top: 148px;
+	color: #ffffff;
+font-family: Poppins;
+font-size: 30px;
+font-weight: 400;
+text-align: center;
+}
+
+.expl_img{
+margin-top:33px;
+padding:0 500px;
+}
+
+.exp-text{
+	padding-top: 41px;
+	color: #ffffff;
+font-family: Poppins;
+font-size: 15px;
+font-weight: 400;
+text-align: center;
+}
